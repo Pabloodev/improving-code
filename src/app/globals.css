@@ -16,6 +16,22 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    243deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(5, 20, 37, 1) 42%,
+    rgba(23, 7, 47, 1) 54%,
+    rgba(26, 12, 64, 1) 60%,
+    rgba(22, 22, 69, 1) 69%,
+    rgba(21, 22, 68, 1) 70%,
+    rgba(2, 22, 25, 1) 100%
+  );
+  font-family: Inconsolata;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
 }
