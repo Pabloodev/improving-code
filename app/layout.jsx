@@ -1,5 +1,5 @@
 import { Inconsolata } from "next/font/google";
-import "./globals.css";
+import "./ui/globals.css";
 
 const inconsolata = Inconsolata({
   variable: "--font-Inconsolata",

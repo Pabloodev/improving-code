@@ -16,16 +16,13 @@
 
 body {
   color: var(--foreground);
-  background: rgb(2, 0, 36);
+  background: rgb(6, 1, 22);
   background: linear-gradient(
     243deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(5, 20, 37, 1) 42%,
-    rgba(23, 7, 47, 1) 54%,
-    rgba(26, 12, 64, 1) 60%,
-    rgba(22, 22, 69, 1) 69%,
-    rgba(21, 22, 68, 1) 70%,
-    rgba(2, 22, 25, 1) 100%
+    rgb(12, 3, 41) 21%,
+    rgb(20, 9, 34) 36%,
+    rgb(4, 5, 32) 61%,
+    rgba(1, 0, 1, 1) 100%
   );
   font-family: Inconsolata;
 }
@@ -34,4 +31,16 @@ h1 {
   font-size: 30px;
   font-weight: 800;
   letter-spacing: -1px;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.884);
+  color: #0a0a0a;
 }
